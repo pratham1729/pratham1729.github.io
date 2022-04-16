@@ -91,6 +91,7 @@ button{
   color: white;
   border: none;
   font-family: 'Roboto Mono', monospace;
+  border-radius: 15px;
 }
 button:hover{
   background-color:gray;
@@ -99,4 +100,5 @@ button:hover{
   cursor: pointer;
   border: none;
   font-family: 'Roboto Mono', monospace;
+  border-radius: 15px;
 }
