@@ -1,3 +1,9 @@
+html{
+  scroll-behavior: smooth;
+}
+.main{
+  overflow: scroll;
+}
 body {
   background-color:black;
 }
@@ -59,6 +65,7 @@ body {
 
 .container2 {
   display: flex;
+  bottom: 0;
   flex-direction: row;
   gap: 20px;
   justify-content: center; 
@@ -76,6 +83,20 @@ body {
     bottom: 0;
     flex-direction: column;
     justify-content: center;
-    width:100%;
-  
+    width:100%;  
+}
+
+button{
+  background-color:black;
+  color: white;
+  border: none;
+  font-family: 'Roboto Mono', monospace;
+}
+button:hover{
+  background-color:gray;
+  color: black;
+  transition: ease-in 170ms;
+  cursor: pointer;
+  border: none;
+  font-family: 'Roboto Mono', monospace;
 }
