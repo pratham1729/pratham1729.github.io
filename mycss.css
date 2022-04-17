@@ -31,7 +31,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 50px;
   text-align: center;
-  font-family: 'Rubik', sans-serif;;
+  font-family: 'Rubik', sans-serif;
 }
 .frontpage1a{
   color: rgb(255, 255, 255);
@@ -47,9 +47,8 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  gap: 15px 20px;
-  justify-content: center; 
-}
+  gap: 10px;
+  justify-content: center;}
 
 .icons {
   font-size: 36pt;
@@ -94,6 +93,7 @@ button{
   font-size: 15px;
   border-radius: 15px;
   width: 75px;
+  white-space: nowrap;
 }
 button:hover{
   background-color:gray;
@@ -103,6 +103,7 @@ button:hover{
   border: none;
   font-family: 'Roboto Mono', monospace;
   border-radius: 15px;
+  white-space: nowrap;
 }
 
 *{
