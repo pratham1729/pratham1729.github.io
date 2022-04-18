@@ -7,6 +7,10 @@ html{
 body {
     background-color:black;
   }  
+  *{
+    margin: 1vh;
+    padding: 0;
+  }
 
 .container {
     display: flex;
@@ -23,6 +27,7 @@ button{
     font-size: 15px;
     border-radius: 15px;
     width: 75px;
+    white-space: nowrap;
 }
 button:hover{
     background-color:gray;
@@ -79,7 +84,7 @@ button:hover{
     color: linen;
     font-size: 20px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;;
 }
 
 .icons {

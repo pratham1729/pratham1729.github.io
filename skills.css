@@ -10,6 +10,29 @@ body {
     justify-content: center;
     overflow: hidden;
 }
+.container button{
+    background-color:black;
+    color: white;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    border-radius: 15px;
+    width: 75px;
+  }
+  .container button:hover{
+    background-color:gray;
+    color: black;
+    transition: ease-in 170ms;
+    cursor: pointer;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 15px;
+  }
+  
+  *{
+    margin: 1vh;
+    padding: 0;
+  }
 
 .containermain {
     display: flex;
@@ -74,8 +97,8 @@ width: 0;
 }
 .animg
 {
-    height: 200px;
-    width: 200px;
+    height: 20vh;
+    width: 13vw;
     padding: 10px;
 }
 

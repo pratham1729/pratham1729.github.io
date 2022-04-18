@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:ital,wght@1,300&family=Roboto+Mono:wght@300&family=Rubik&display=swap" rel="stylesheet">   
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=IBM+Plex+Serif&family=Lato:wght@300&family=Nunito:wght@300;500&family=Open+Sans:ital,wght@1,300&family=PT+Sans&family=Roboto+Mono:wght@300&family=Rubik&display=swap" rel="stylesheet">      
         <title>Projects</title>
         <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
         <link rel="stylesheet" href="projects.css"/>
@@ -15,11 +15,12 @@
     </head>
     <body>
         <div class="containermain">
-            <div class="icons">
-                <a href="index.html">
-                <i class="fa-solid fa-home"></i>
-                </a>
-            </div>
+            <div class="container">
+                <a href="index.html"><button type="button">Home</button></a>
+                <a href="projects.html"><button type="button">Projects</button></a>
+                <a href="skills.html"><button type="button">Skills</button></a>
+                <a href="aboutme.html"><button type="button">About Me</button></a>
+        </div>
             <div class="trial">
                 <div class="animation">
                     <h1>My Projects</h1>
@@ -27,26 +28,35 @@
             </div>
             <div class="container2">
                 
-                <div style="width: 25%;" class="image"><center><a href="https://github.com/pratham1729/elepy"><img src="images/elepy.jpg" width="60%"></a></center></div>
-                <div style="width: 75%;"><h2 style="color: white"><center>Elepy</center></h2>
-                <center><p>Elepy is a periodic table project which allows the user to search elements and displays an interactive periodic table.
+                <div style="width: 25%;"><center>
+                    <div class="imagecont">
+                        <img src="images/elepy.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                          <div class="text"><a href="https://github.com/pratham1729/elepy">Click for<br>Github<br>Repository</a></div>
+                        </div>
+                      </div>
+                    </center></div>
+                <div style="width: 75%;"><h2 style="color: white; font-family: 'IBM Plex Serif', serif;"><center>Elepy</center></h2>
+                <center><p style="font-family: 'IBM Plex Serif', serif;">Elepy is a periodic table project which allows the user to search elements and displays an interactive periodic table.
                     It uses MySQL for storing elements data and is built using Python.
                 </p>
                 </center>
                 </div>
-                <div style="width: 10%;"></div>
             </div>
             <div class="container2">
-                <div style="width: 25%;" class="image">
+                <div style="width: 25%;">
                     <center>
-                    <a href="https://github.com/pratham1729/PAPDevs">
-                    <img src="images/discord.png" width="60%">
-                    </a>
+                        <div class="imagecont">
+                            <img src="images/discord.png" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <div class="text"><a href="https://github.com/pratham1729/PAPDevs">Click for<br>Github<br>Repository</a></div>
+                            </div>
+                          </div>
                     </center>
                 </div>
-                <div style="width: 75%;"><h2 style="color: white"><center>PAPBot</center></h2>
+                <div style="width: 75%;"><h2 style="color: white;font-family: 'IBM Plex Serif', serif;"><center>PAPBot</center></h2>
                 <center>
-                <p>PAPBot was mine and my team's project for Syntax Error 2022. It has various features such as CGPA Management system,
+                <p style="font-family: 'IBM Plex Serif', serif;">PAPBot was mine and my team's project for Syntax Error 2022. It has various features such as CGPA Management system,
                     Pomodoro timer, TicTacToe and Snakes and ladders and a To-Do List feature. It is a Discord Bot, built in Python using the discord.py library.
                 </p>
                 </center>
