@@ -11,6 +11,11 @@ body {
     overflow: hidden;
 }
 
+.containermain {
+    display: flex;
+    flex-direction: column;
+  
+  }
 .lol{
     height: 300px;
     width: 300px;
@@ -58,6 +63,39 @@ white-space: nowrap;
 animation: typing 1.5s steps(18, end) forwards;
 width: 0;
 }
+.imgcont
+{
+    display: flex;    
+    flex-direction: row;    
+    justify-content: space-evenly;   
+    flex-wrap: wrap;        
+    width: 80vw;
+    
+}
+.animg
+{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+.animg:hover
+{
+    animation: jump 1s ease infinite;
+}
+@keyframes jump {
+    0% {
+      transform: scale(1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 
 @keyframes typing {
 from{ width: 0%;}
@@ -67,4 +105,18 @@ to{width: 100%;}
 a:link{
     text-decoration: none;
     color: red;
+}
+
+@media only screen and (max-width: 750px)
+{
+    .imgcont
+    {        
+        display: flex;
+        
+        flex-direction: column;
+        
+        justify-content: space-around;
+        
+        align-items: center;
+    }
 }
