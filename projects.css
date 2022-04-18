@@ -1,9 +1,4 @@
-html{
-    scroll-behavior: smooth;
-  }
-.main{
-    overflow: scroll;
-  }
+
 body {
     background-color:black;
   }  
@@ -47,40 +42,35 @@ button:hover{
     bottom: 0;
     background-color: transparent;
 }
-.container2{
+.container2 {
     display: flex;
     bottom: 0;
     flex-direction: row;
     gap: 20px;
     justify-content: center; 
-}
-
+  }
 .lol{
     height: 300px;
     width: 300px;
     border-radius: 50%;
 }
-
 .frontpage1{
     color: rgb(255, 255, 255);
     font-size: 50px;
     text-align: center;
     font-family: 'Rubik', sans-serif;;
 }
-  
 .frontpage1a{
     color: rgb(255, 255, 255);
     font-size: 35px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-  
 .frontpage2{
     color: rgb(200, 245, 0);
     font-size: 25px;
     text-align: center;
 }
-  
 .para{
     color: linen;
     font-size: 20px;
@@ -128,23 +118,7 @@ from{ width: 0%;}
 to{width: 100%;}
 }
   
-a:link {
+a:link{
     text-decoration: none;
     color: red;
 }
-
-.containermain {
-    display: flex;
-    flex-direction: column;
-  
-  }
-
-@media only screen and (max-width: 750px)
-{
-    .container {
-      display: flex;
-      display: -webkit-flex;
-      display: -ms-flex;
-      flex-direction: column;
-      gap: 10px;
-      align-items: center;}}

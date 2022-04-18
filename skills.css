@@ -1,0 +1,70 @@
+
+body {
+    background-color:black;
+  }  
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px 20px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.lol{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.para{
+    color: linen;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icons {
+    font-size: 36pt;
+    color: whitesmoke;
+    word-spacing: 15px;
+}
+  
+.icons a:hover {
+    color: rgb(189, 189, 189);
+    transition: ease-in 170ms;
+    cursor: pointer;
+}
+
+.trial{
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-content: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.animation{
+display: inline-block;
+width: fit-content;
+}
+
+h1{
+font-family: 'Rubik', sans-serif;
+font-size: 3vw;
+overflow: hidden;
+border-right: .15em solid rgb(255, 255, 255);
+white-space: nowrap;
+animation: typing 1.5s steps(18, end) forwards;
+width: 0;
+}
+
+@keyframes typing {
+from{ width: 0%;}
+to{width: 100%;}
+}
+  
+a:link{
+    text-decoration: none;
+    color: red;
+}

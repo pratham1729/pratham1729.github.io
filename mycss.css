@@ -44,14 +44,17 @@ body {
   font-size: 25px;
   text-align: center;
 }
-.container {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  justify-content: center;}
+
 
 .icons {
+  display: flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  flex-direction: row;
   font-size: 36pt;
+  gap: 10px;
+  justify-content: center;
   color: whitesmoke;
   word-spacing: 15px;
 }
@@ -62,8 +65,23 @@ body {
   cursor: pointer;
 }
 
+
+.containermain {
+  display: flex;
+  flex-direction: column;
+
+}
+.container {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;}
 .container2 {
   display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
   bottom: 0;
   flex-direction: row;
   gap: 20px;
@@ -71,21 +89,20 @@ body {
 }
 
 .lol{
-  height: 300px;
-  width: 300px;
+  height: 275px;
+  width: 275px;
   border-radius: 50%;
 }
 
 #time{
     display: flex;
     position: absolute;
-    bottom: 0;
     flex-direction: column;
     justify-content: center;
     width:100%;  
 }
 
-button{
+.container button{
   background-color:black;
   color: white;
   border: none;
@@ -93,9 +110,8 @@ button{
   font-size: 15px;
   border-radius: 15px;
   width: 75px;
-  white-space: nowrap;
 }
-button:hover{
+.container button:hover{
   background-color:gray;
   color: black;
   transition: ease-in 170ms;
@@ -103,7 +119,6 @@ button:hover{
   border: none;
   font-family: 'Roboto Mono', monospace;
   border-radius: 15px;
-  white-space: nowrap;
 }
 
 *{
@@ -111,9 +126,6 @@ button:hover{
   padding: 0px;
 }
 
-body{
-  font-family: 'Exo', sans-serif;
-}
 
 
 .context {
@@ -244,5 +256,32 @@ body{
       opacity: 0;
       border-radius: 50%;
   }
+}
 
+@media only screen and (max-width: 750px)
+{
+  .container {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;}
+  .container2 {
+    display: flex;
+    bottom: 0;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center; 
+  }
+  .icons {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    flex-direction: column;
+    font-size: 36pt;
+    color: whitesmoke;
+    word-spacing: 15px;
+    align-items:center;
+  }
 }
