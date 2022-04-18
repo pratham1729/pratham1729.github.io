@@ -142,4 +142,11 @@ a:link{
         
         align-items: center;
     }
-}
+
+    .container {
+      display: flex;
+      display: -webkit-flex;
+      display: -ms-flex;
+      flex-direction: column;
+      gap: 0.67rem;
+      align-items: center;}}
