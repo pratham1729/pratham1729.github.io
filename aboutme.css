@@ -47,13 +47,7 @@ button:hover{
     bottom: 0;
     background-color: transparent;
 }
-.container2{
-    display: flex;
-    bottom: 0;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center; 
-}
+
 
 .lol{
     height: 300px;
