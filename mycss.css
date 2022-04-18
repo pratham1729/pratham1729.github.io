@@ -170,4 +170,12 @@ body {
     width: 20vw;
     border-radius: 50%;
   }
+  #time{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:80%;  
+}
 }
