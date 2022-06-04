@@ -141,9 +141,11 @@ a:link {
 @media only screen and (max-width: 750px)
 {
     .container {
-      display: flex;
-      display: -webkit-flex;
-      display: -ms-flex;
-      flex-direction: column;
-      gap: 0.67rem;
-      align-items: center;}}
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        align-items: center;
+        overflow-x: hidden;}}
