@@ -132,11 +132,15 @@ body {
   padding: 0;
 }
 
+.xyz{
+  height: 100%;
+  width: 35%;
+}
 
 
 
 @media only screen and (max-width: 750px)
-{
+{ 
   .container {
     display: flex;
     display: -webkit-flex;
