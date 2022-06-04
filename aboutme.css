@@ -145,7 +145,6 @@ a:link {
         display: -webkit-flex;
         display: -ms-flex;
         flex-direction: row;
-        flex-wrap: wrap;
         gap: 0rem;
         align-items: center;
         overflow-x: hidden;}}
