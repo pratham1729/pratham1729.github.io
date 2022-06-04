@@ -143,7 +143,7 @@ body {
     display: -ms-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 0.2rem;
+    gap: 0rem;
     align-items: center;
     overflow-x: hidden;}
   .container2 {
